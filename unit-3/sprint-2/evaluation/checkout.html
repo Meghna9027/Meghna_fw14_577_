@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin-left:450px;
+            margin-right:400px;
+        }
+        .myForm{
+            display:flex;
+            flex-direction: column;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        label{
+            font-size:25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top:20px;
+        }
+        #name{
+            margin-top:15px;
+            height:30px;
+            width:400px;
+            font-size:15px;
+        }
+        #mobile{
+            margin-top:15px;
+            height:30px;
+            width:400px;
+            font-size:15px;
+        }
+        #address{
+            margin-top:15px;
+            height:30px;
+            width:400px;
+            font-size:15px;
+        }
+        #city{
+            margin-top:15px;
+            height:30px;
+            width:400px;
+            font-size:15px;
+        }
+        button{
+            margin-top:30px;
+            border:1px solid black;
+            cursor: pointer;
+            height:40px;
+            width:110px;
+            border-radius:10px;
+            font-size:15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Delivery Location</h1>
+        <form class="myForm">
+            <label>Name</label>
+            <input id="name" type="text" placeholder="Enter Name"/>
+            <label>Mobile</label>
+            <input id="mobile" type="number" placeholder="Enter Mobile Number"/>
+            <label>Address</label>
+            <input id="address" type="text number" placeholder="Enter Address"/>
+            <label>City</label>
+            <input id="city" type="text" placeholder="Enter City"/>
+           <button onclick="order()">Placed Order</button>
+        </form>
+    </div>
+</body>
+</html>
